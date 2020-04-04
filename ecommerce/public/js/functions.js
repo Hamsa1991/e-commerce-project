@@ -20,7 +20,6 @@ function setSlider(){
         " - $" + $("#slider-range").slider("values", 1));
 }
 $(document).ready(function() {
-    setSlider();
 
     //pagination
     $('#per_page_select').change(function () {
@@ -61,4 +60,6 @@ $(document).ready(function() {
 
         });
     });
+
+    setSlider();
 });
