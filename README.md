@@ -5,7 +5,7 @@ PHP >= 7.2.5<br/>
 for more information please go to : https://laravel.com/docs/7.x <br>
 ### Setup projects
 create database "ecommerce" and import "ecommerce.sql" file into it<br>
-create database "payment-category" and import "payment-category.sql" file into it<br>
+create database "payment-gateway" and import "payment-gateway.sql" file into it<br>
 Go to ".env: file in each project and update only your user name and password (DB_USERNAME, DB_PASSWORD values)<br>
 ### Run projects
 Open cmd and change directory to "ecommerce" project then run this command:<br><br>
@@ -15,7 +15,7 @@ Open another cmd and change directory to "payment-gateway" project then run it w
 ###### *Please note that the port in the last command should be 8001 <br>
 
 <br><br><br>
-## Framwork:
+## Framwork used:
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
