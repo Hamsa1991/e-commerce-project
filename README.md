@@ -12,7 +12,14 @@ Open cmd and change directory to "ecommerce" project then run this command:<br><
 `php arisan serv `<br><br>
 Open another cmd and change directory to "payment-gateway" project then run it with port 8001 or type this command:<br><br>
 ` php artisan serv --port 8001 `
-###### *Please note that the port in the last command should be 8001 <br>
+<br><br>
+#### *Notes:
+###### the port in the last command should be 8001 <br>
+###### for any cache problems please run these commands:<br>
+`php artisan cache:clean`<br>
+`php artisan view:clear`<br>
+###### all js code in ecommerce project is written in file \ecommerce\public\js\functions.js
+
 
 <br><br><br>
 ## Framwork used:
