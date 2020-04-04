@@ -6,8 +6,9 @@ for more information please go to : https://laravel.com/docs/7.x <br>
 ### Setup projects
 create database "ecommerce" and import "ecommerce.sql" file into it<br>
 create database "payment-gateway" and import "payment-gateway.sql" file into it<br>
-Go to ".env: file in each project and update only your user name and password (DB_USERNAME, DB_PASSWORD values)<br>
+Go to ".env" file in each project and update only your user name and password (DB_USERNAME, DB_PASSWORD values)<br>
 ### Run projects
+Run Apache and mysql<br>
 Open cmd and change directory to "ecommerce" project then run this command:<br><br>
 `php arisan serv `<br><br>
 Open another cmd and change directory to "payment-gateway" project then run it with port 8001 or type this command:<br><br>
@@ -18,7 +19,7 @@ Open another cmd and change directory to "payment-gateway" project then run it w
 ###### for any cache problems please run these commands:<br>
 `php artisan cache:clean`<br>
 `php artisan view:clear`<br>
-###### all js code in ecommerce project is written in file \ecommerce\public\js\functions.js
+###### all js code in ecommerce project is written in file \ecommerce\public\js\functions.js<br>
 
 
 <br><br><br>
