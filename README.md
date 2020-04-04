@@ -16,9 +16,6 @@ Open another cmd and change directory to "payment-gateway" project then run it w
 <br><br>
 ### *Notes:
 ###### the port in the last command should be 8001 <br>
-###### for any cache problems please run these commands:<br>
-`php artisan cache:clear`<br>
-`php artisan view:clear`<br>
 ###### all js code in ecommerce project is written in file \ecommerce\public\js\functions.js<br>
 ###### Framework used is an mvc php framework<br>
 
