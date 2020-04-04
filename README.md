@@ -14,19 +14,20 @@ Open cmd and change directory to "ecommerce" project then run this command:<br><
 Open another cmd and change directory to "payment-gateway" project then run it with port 8001 or type this command:<br><br>
 ` php artisan serv --port 8001 `
 <br><br>
-#### *Notes:
+### *Notes:
 ###### the port in the last command should be 8001 <br>
 ###### for any cache problems please run these commands:<br>
-`php artisan cache:clean`<br>
+`php artisan cache:clear`<br>
 `php artisan view:clear`<br>
 ###### all js code in ecommerce project is written in file \ecommerce\public\js\functions.js<br>
+###### Framework used is an mvc php framework<br>
 
 
 <br><br><br>
 ### Demo
 [![Audi R8](http://img.youtube.com/vi/d2GNP9c56kQ/0.jpg)](https://youtu.be/d2GNP9c56kQ "Audi R8") 
 <br><br><br>
-## Framwork used:
+## Framework used:
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
